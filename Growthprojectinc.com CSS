@@ -1,0 +1,133 @@
+html{
+	margin: 0px;
+	padding: 0px;
+	max-width: 100%;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	min-height: 100%;
+	max-width: 100%;
+}
+@font-face {
+  font-family: 'Bazar';
+  src: url(http://ufonts.com/fonts/bazar.html);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar-brand{
+	font-family:'Bazar';
+	font-size:28px;
+}
+.nav{
+	font-family:'Bazar';
+	font-size:20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  background-image: url('http://i.imgur.com/cZ4vYwo.jpg');
+  height: 800px;
+  padding:0px;
+  background-position: center;
+  background-repeat: no-repeat;
+	flex-direction: column;
+	font-family:'Bazar';
+	font-size:72px;
+}
+
+.logos{
+	margin-top: 50px;
+}
+
+h1 {
+font-size: 56px;
+font-family:Bazar;
+color:black;
+}
+
+.row-fluid{
+	margin-right: 150px;
+	margin-left: 150px;
+
+}
+
+.videos{
+	background-color:white;
+	font-family:'Bazar';
+	font-size:30px;
+	margin: 0px;
+	padding: 0px;
+	border:0px;
+	display: relative;
+	align-items:center;
+}
+
+.videos a{
+  font-family:'Bazar';
+  font-size:30px;
+  margin:0px;
+  padding:0px;
+  color:black;
+}
+.videos p{
+	text-align: center;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+	
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav ul.right {
+    float: right;
+    list-style-type: none;
+}
+
+.navbar-header{
+	background-color: white;
+	color: black;
+}
+
+.product{
+ background-color:white;
+	font-family:'Bazar';
+	font-size:30px;
+	margin:0;
+	padding:0;
+  list-style-type: none;
+ 
+}
+
+.product p{
+	 text-align: center;
+}
+
+
+
+
+
+
+
